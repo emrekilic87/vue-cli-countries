@@ -92,7 +92,15 @@ img{
   width:100%;
 }
 
-.selectArea,
+.selectArea{
+  width:320px;
+  margin: 0 auto 2em
+}
+
+.selectArea select{
+  width:100%;
+}
+
 .resultArea{
   margin-bottom: 2em
 }
