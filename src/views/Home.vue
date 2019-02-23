@@ -3,7 +3,7 @@
     <!-- <img alt="Vue logo" src="../assets/logo.png"> -->
     <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
     <div class="selectArea">
-    <select name="select" id="select" v-model="selected" :required="true" @change="selectContry()">
+    <select name="select" id="select" v-model="selected" :required="true" >
       <option value="Choose Country" >Choose Country</option>
       <option value="All" >All Country</option>
       <option v-for="item in results" v-bind:value="item.alpha3Code" >{{item.name}}</option>
@@ -76,13 +76,11 @@ export default {
   created() {
     axios.get("https://restcountries.eu/rest/v2/all").then(response => {
       this.results = response.data;
-      console.log(response.data);
+      // console.log(response.data);
     });
   },
   method:{
-     selectContry() {
-    
-    }
+   
   }
 };
 </script>
