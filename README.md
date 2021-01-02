@@ -1,36 +1,8 @@
-# vue-cli-countries
-
-# https://vue-cli-countries.vercel.app/
-
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Run your unit tests
-```
-npm run test:unit
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+This free api has been used in this project >> https://restcountries.eu/
+<br>
+<br>
+Tech stacks;
+* Vue 2
+* Axios
+<br>
+Demo: https://vue-cli-countries.vercel.app/
